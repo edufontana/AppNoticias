@@ -7,7 +7,13 @@ import EditarNoticias from '../screens/EditarNoticias';
 const MainStack = createStackNavigator();
 
 export default () => (
-  <MainStack.Navigator>
+  <MainStack.Navigator
+    screenOptions={{
+      headerStyle: {
+        backgroundColor: '#222',
+      },
+      headerTintColor: '#fff',
+    }}>
     <MainStack.Screen name="ListaNoticias" component={ListaNoticias} />
     <MainStack.Screen name="EditarNoticias" component={EditarNoticias} />
   </MainStack.Navigator>
