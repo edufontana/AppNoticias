@@ -1,6 +1,6 @@
-<h1 align='center'>
-  ![Screenshot_1607537833](https://user-images.githubusercontent.com/46920937/101679537-41b9a180-3a3e-11eb-8aa4-05c056b49fc4.png)
-</h1>
+<img src="images/appNoticiass.png" width="30%" height="30%">
+
+
 
 <h2 align='center'> App de Notícias </h2>
 
