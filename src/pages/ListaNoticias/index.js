@@ -10,6 +10,7 @@ import Noticiasitems from '../../components/Noticiasitems';
 export default () => {
   const navigation = useNavigation();
   const noticias = useSelector((state) => state.notes.list);
+  console.log(noticias);
 
   useLayoutEffect(() => {
     navigation.setOptions({

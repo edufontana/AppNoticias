@@ -34,3 +34,21 @@ export const AuthorInput = styled.TextInput`
   border-top-color: #222;
   border-top-width: 1px;
 `;
+
+export const Save = styled.TouchableHighlight`
+  margin-right: 15px;
+`;
+
+export const SaveImage = styled.Image`
+  width: 20px;
+  height: 20px;
+`;
+
+export const Close = styled.TouchableHighlight`
+  margin-left: 15px;
+`;
+
+export const CloseImage = styled.Image`
+  width: 13px;
+  height: 13px;
+`;
