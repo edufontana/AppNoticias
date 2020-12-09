@@ -27,6 +27,18 @@ export default (state = initialState, action) => {
           author: action.payload.author,
         };
       }
+
+    case 'DEL_NOTE':
+      indexList = newList.findIndex((item, index) => {
+        if (index == action.payload.key) {
+          return true;
+        } else {
+          return false;
+        }
+      });
+
+      newList.splice(indexList, 1);
+
       break;
   }
 

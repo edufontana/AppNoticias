@@ -11,6 +11,8 @@ import {
   SaveImage,
   Close,
   CloseImage,
+  DeleteButton,
+  DeleteTexto,
 } from './styles';
 
 export default () => {
@@ -82,6 +84,16 @@ export default () => {
     navigation.goBack();
   };
 
+  const handleDelete = () => {
+    dispatch({
+      type: 'DEL_NOTE',
+      payload: {
+        key: route.params.key,
+      },
+    });
+    navigation.goBack();
+  };
+
   return (
     <Container>
       <TitleInput
@@ -105,6 +117,11 @@ export default () => {
         placeholder="Digite o nome do autor"
         placeholderTextColor="#ccc"
       />
+      {status == 'edit' && (
+        <DeleteButton underlayColor={'#ff0000'} onPress={handleDelete}>
+          <DeleteTexto>Excluir Notícia</DeleteTexto>
+        </DeleteButton>
+      )}
     </Container>
   );
 };
