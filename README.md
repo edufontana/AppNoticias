@@ -1,5 +1,5 @@
 <h1 align='center'>
-  ![Screenshot_1607537833](https://user-images.githubusercontent.com/46920937/101678878-52b5e300-3a3d-11eb-8aca-b32017b32bc5.png)
+  https://user-images.githubusercontent.com/46920937/101678878-52b5e300-3a3d-11eb-8aca-b32017b32bc5.png
 </h1>
 
 <h2 align='center'> App de Notícias </h2>
