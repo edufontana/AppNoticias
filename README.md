@@ -1,7 +1,3 @@
-<img src="images/appNoticiass.png" width="30%" height="30%">
-
-
-
 <h2 align='center'> App de Notícias </h2>
 
 - Utilizando Redux e Redux Persist
@@ -21,9 +17,14 @@ Ou
 
 $ npm install
 ```
-
 - Dar o build no aplicativo IOS ou Android:
+
 ```
 $ react-native run-android
 
 $ react-native run-ios (Só funciona no macOS)
+
+```
+
+
+<img src="images/appNoticiass.png" width="30%" height="30%">
