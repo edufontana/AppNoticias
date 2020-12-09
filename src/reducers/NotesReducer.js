@@ -27,9 +27,9 @@ export default (state = initialState, action) => {
           author: action.payload.author,
         };
       }
-
+      break;
     case 'DEL_NOTE':
-      indexList = newList.findIndex((item, index) => {
+      let indexList = newList.findIndex((item, index) => {
         if (index == action.payload.key) {
           return true;
         } else {
