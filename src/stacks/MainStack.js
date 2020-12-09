@@ -1,8 +1,8 @@
 import React from 'react';
 import {createStackNavigator} from '@react-navigation/stack';
 
-import ListaNoticias from '../screens/ListaNoticias';
-import EditarNoticias from '../screens/EditarNoticias';
+import ListaNoticias from '../pages/ListaNoticias';
+import EditarNoticias from '../pages/EditarNoticias';
 
 const MainStack = createStackNavigator();
 

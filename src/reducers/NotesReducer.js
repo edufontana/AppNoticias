@@ -3,6 +3,7 @@ const initialState = {
     {
       title: 'primeira noticias',
       body: 'tteste',
+      author: 'edu',
     },
   ],
 };

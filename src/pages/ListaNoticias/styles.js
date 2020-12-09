@@ -15,3 +15,8 @@ export const ImageMais = styled.Image`
   width: 20px;
   height: 20px;
 `;
+
+export const ListaNoticias = styled.FlatList`
+  flex: 1;
+  width: 100%;
+`;
