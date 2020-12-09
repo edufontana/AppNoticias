@@ -26,5 +26,7 @@ $ react-native run-ios (Só funciona no macOS)
 
 ```
 
+<p align="center">
+  <img src="images/appNoticiass.png" width="30%" height="30%">
+</p>
 
-<img src="images/appNoticiass.png" width="30%" height="30%">
