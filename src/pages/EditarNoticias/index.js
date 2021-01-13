@@ -114,7 +114,7 @@ export default () => {
       <AuthorInput
         value={author}
         onChangeText={(e) => setAuthor(e)}
-        placeholder="Digite o name do autor"
+        placeholder="Digite o nome do autor"
         placeholderTextColor="#ccc"
       />
       {status == 'edit' && (
