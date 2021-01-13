@@ -119,7 +119,7 @@ export default () => {
       />
       {status == 'edit' && (
         <DeleteButton underlayColor={'#ff0000'} onPress={handleDelete}>
-          <DeleteTexto>Excluir Notícia</DeleteTexto>
+          <DeleteTexto>Excluir Notícia.</DeleteTexto>
         </DeleteButton>
       )}
     </Container>
